@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image: url("/Temperature\ Converter\ Website\ Oasis\ Infobyte/images/background\ 01.png");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  color: #271801;
+}
+
+p{
+  text-align: center;
+  color: #271801;
+  font-weight: 400;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #F8DAA0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 390px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #271801;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f8b020;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #f0f0f0;
+}

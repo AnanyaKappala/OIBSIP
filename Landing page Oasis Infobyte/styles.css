@@ -1,0 +1,490 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'poppins', sans-serif;
+    line-height: 1.5;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-image: url("/Landing\ page\ Oasis\ Infobyte/images/background\ 01.png");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  header h1{
+    font-size: 85px;
+    margin-top: 80px;
+    color: #000000;
+    text-align: left;
+    padding-left: 50px;
+  }
+  
+  header p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0.5rem 0;
+    color: #000000;
+    padding-left: 50px;
+  }
+  
+  header a.cta{
+    background-color: #FFD25B;
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 1rem;
+    transition: all 0.2s;
+    margin-left: 50px;
+    width: fit-content;
+  }
+  
+  header a:hover{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+   img {
+    height: 40px;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 7%;
+    color: #000000;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 300;
+  }
+  
+  /* Main Content */
+  main {
+    background-image: url("/Landing\ page\ Oasis\ Infobyte/images/background\ 02.png");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Services Section */
+  .services {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .services h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .service {
+    width: 300px;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #FFDED6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height:fit-content;
+  }
+  
+  .service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    margin-bottom: 20px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url("/Landing\ page\ Oasis\ Infobyte/images/background\ 02.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #000000;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #525252;
+  }
+  
+  /* Featured Products Section */
+  .featured-products {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .featured-products h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product {
+    width: 300px;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #FFDED6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: fit-content;
+  }
+  
+  .product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    margin-bottom: 20px;
+  }
+  
+  /* Newsletter Section */
+  .newsletter {
+    background-image: url("/Landing\ page\ Oasis\ Infobyte/images/background\ 03.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'poppins',sans-serif;
+  }
+  
+  .newsletter h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 300;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .newsletter-form input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 50px;
+    border: 5px solid #F1AFAD;
+    background-color: #f8f8f8;
+    font-weight: 500;
+  }
+  
+  .newsletter-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #F1AFAD;
+    color: #000000;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .newsletter-form button[type="submit"]:hover {
+    background-color: #b87c7b;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #FFD25B;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    font-size: medium;
+  }
+  
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+  .left-img {
+    display: none;
+  }
+  
+  .left-content {
+    margin-left: 0;
+  }
+  
+  .head {
+    padding: 80px 16px;
+  }
+  
+  .my-name {
+    font-size: 36px;
+  }
+  
+  .name-p {
+    font-size: 16px;
+  }
+  
+  .left-bottom {
+    margin-left: 0;
+  }
+  
+  .img-small {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  
+  .img-big {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  
+  .img-2,
+  .img-3 {
+    display: none;
+  }
+  
+  .about-me,
+  .My-Skills,
+  .Contact-me {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .My-Skills-p,
+  .Contact-me-p {
+    font-size: 16px;
+  }
+  
+  .c-bar,
+  .Cp-bar,
+  .h-bar,
+  .java-bar,
+  .figma-bar {
+    width: 100%;
+  }
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .left-img {
+    width: 30%;
+  }
+  
+  .left-content {
+    margin-left: 30%;
+  }
+  
+  .head {
+    padding: 120px 16px;
+  }
+  
+  .my-name {
+    font-size: 42px;
+  }
+  
+  .name-p {
+    font-size: 18px;
+  }
+  
+  .left-bottom {
+    margin-left: 2%;
+  }
+  
+  .img-small {
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+  
+  .img-big {
+    width: 45.7%;
+    height: auto;
+    margin-left: 2%;
+  }
+  
+  .img-2,
+  .img-3 {
+    display: block;
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+  
+  .about-me,
+  .My-Skills,
+  .Contact-me {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .My-Skills-p,
+  .Contact-me-p {
+    font-size: 18px;
+  }
+  
+  .c-bar,
+  .Cp-bar,
+  .h-bar,
+  .java-bar,
+  .figma-bar {
+    width: 97.8%;
+  }
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1025px) {
+  .left-img {
+    width: 40%;
+  }
+  
+  .left-content {
+    margin-left: 40%;
+  }
+  
+  .head {
+    padding: 148px 16px;
+  }
+  
+  .my-name {
+    font-size: 50px;
+  }
+  
+  .name-p {
+    font-size: 18px;
+  }
+  
+  .left-bottom {
+    margin-left: 2%;
+  }
+  
+  .img-small {
+    width: 50%;
+    height: 35%;
+    float: left;
+  }
+  
+  .img-big {
+    width: 45.7%;
+    height: 35%;
+    margin-left: 2%;
+  }
+  
+  .img-2,
+  .img-3 {
+    display: block;
+    width: 50%;
+    height: 35%;
+    float: left;
+  }
+  
+  .about-me,
+  .My-Skills,
+  .Contact-me {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .My-Skills-p,
+  .Contact-me-p {
+    font-size: 20px;
+  }
+  
+  .c-bar,
+  .Cp-bar,
+  .h-bar,
+  .java-bar,
+  .figma-bar {
+    width: 95.6%;
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TW || TempWizard || Making Temperature Conversion a Breeze!</title>
+  <link rel="stylesheet" href="/Temperature Converter Website Oasis Infobyte/styles.css">
+</head>
+<body>
+  <h1>TW || TEMP WIZARD</h1>
+  <p>Making Temperature Conversion a Breeze!</p>
+  <div class="logo">
+    <img src="/Temperature Converter Website Oasis Infobyte/images/logo.png" alt="Logo" width="100" height="100">
+  </div>
+  <div class="container">
+    <div class="form-group">
+      <label>Temperature:</label>
+      <input type="number" id="temperature" placeholder="Enter temperature" />
+    </div>
+    <div class="form-group">
+      <label>From:</label>
+      <select id="fromUnit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>To:</label>
+      <select id="toUnit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+    </div>
+    <button class="btn" onclick="convertTemperature()">Convert</button>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="/Temperature Converter Website Oasis Infobyte/main.js"></script>
+</body>
+</html>

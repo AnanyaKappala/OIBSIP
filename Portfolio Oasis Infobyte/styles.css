@@ -1,0 +1,328 @@
+body {
+    background-image: url("/Portfolio\ Oasis\ Infobyte/images/background\ 01.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    color: #E6B597;
+    font-family: 'Merriweather', serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: none;
+    z-index: 1;
+    transition: opacity 0.3s ease;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #E6B597;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #d78e61;
+}
+
+#navbar-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+}
+
+#navbar-toggle.hide {
+    opacity: 0;
+    display: none;
+}
+
+#navbar-toggle:hover {
+    opacity: 0.7;
+}
+
+.navbar.show {
+    display: block;
+    opacity: 1;
+    background-color: #333;
+}
+
+.left-img {
+    width: 40%;
+}
+
+.big-img-left {
+    width: 40%;
+    position: fixed;
+    height: 100%;
+    margin: 0;
+    opacity: 0;
+    transition: opacity 10s ease;
+}
+
+.big-img-left.fade-in {
+    opacity: 1; 
+}
+
+
+.left-content {
+    margin: 0;
+    margin-left: 40%;
+    /* color: #CBE4DE; */
+}
+
+.head {
+    padding: 148px 16px;
+    margin: 0;
+    text-align: center;
+}
+
+.my-name {
+    margin: 15;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.name-p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.name-rd {
+    font-size: 15px;
+}
+
+.Resume-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 30px;
+    font-family: Arial;
+    color: #E6B597;
+    border-color: #E6B597;
+    font-size: 20px;
+    background: #E6B597;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: fit-content;
+}
+  
+.Resume-btn:hover {
+    background: #d78e61;
+    text-decoration: none;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #383B4E;
+}
+
+.left-bottom {
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+hr {
+    width: 95%;
+    margin-bottom: 15px;
+    color: #494F52;
+}
+
+.img-small {
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 1.9%;
+}
+
+.img-big {
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 1.9%;
+}
+
+.img-2 {
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 1.9%;
+}
+
+.img-3 {
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 1.9%;
+}
+
+
+.about-me {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+
+.about-p {
+    font-size: 18px;
+    word-spacing: 3;
+    line-height: 1.5;
+}
+
+.My-Skills {
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+
+.My-Skills-p {
+    font-size: 18px;
+}
+
+.c-bar {
+    width: 97.8%;
+    height: 3%;
+    background-color: #4592AF;
+    margin-bottom: 4%;
+}
+
+.c-bar-interior {
+    width: 96%;
+    height: 100%;
+    background-color: #FEE2C5;
+}
+
+.Cp-bar {
+    width: 97.8%;
+    height: 3%;
+    background-color: #4592AF;
+    margin-bottom: 4%;
+}
+
+.Cp-bar-interior {
+    width: 85%;
+    height: 100%;
+    background-color: #FEE2C5;
+}
+
+
+.h-bar {
+    width: 97.8%;
+    height: 3%;
+    background-color: #4592AF;
+    margin-bottom: 4%;
+}
+
+.h-bar-interior {
+    width: 90%;
+    height: 100%;
+    background-color: #FEE2C5;
+}
+
+.java-bar {
+    width: 97.8%;
+    height: 3%;
+    background-color: #4592AF;
+    margin-bottom: 4%;
+}
+
+.java-bar-interior {
+    width: 65%;
+    height: 100%;
+    background-color: #FEE2C5;
+}
+
+.figma-bar {
+    width: 97.8%;
+    height: 3%;
+    background-color: #4592AF;
+    margin-bottom: 4%;
+}
+
+.figma-interior {
+    width: 80%;
+    height: 100%;
+    background-color: #FEE2C5;
+}
+
+.sql-bar {
+    width: 97.8%;
+    height: 3%;
+    background-color: #4592AF;
+    margin-bottom: 4%;
+}
+
+.sql-bar-interior {
+    width: 75%;
+    height: 100%;
+    background-color: #FEE2C5;
+}
+
+.Contact-me {
+    margin-left: 2%;
+    margin-bottom: 8%;
+}
+
+.Contact-me-p {
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+footer {
+    background-color: #383B4E;
+    margin: 0;
+}
+
+.footer-p {
+    font-size: 18px;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    color: #E6B597;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #E6B597;
+}
+
+a:hover{
+    color: #ffff;
+    text-decoration: underline;
+}
+
+center{
+    color: #383B4E;
+}
+
+.downloadicon{
+    height: 25px;
+    justify-content: flex-end;
+}
+
+.c-bar-interior.animate,
+.Cp-bar-interior.animate,
+.h-bar-interior.animate,
+.java-bar-interior.animate,
+.figma-interior.animate {
+  animation: progress-animation 10s ease;
+}
+
+@keyframes progress-animation {
+  from {
+    width: 0;
+  }
+}
